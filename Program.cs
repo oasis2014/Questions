@@ -10,8 +10,11 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            BitManipulation_InsertMToN.DoTest(19, 1100, 2, 6);
+            /*
             int[] input = new int[] { 0, 2, 1, 4, 5, 6 };
             MissingItemInArray.DoTest(input, 6);
+             * */
             /*
             int[] input = new int[] { -2, -1, 0, 3, 5, 6, 7, 9, 13, 14 };
             int value = 12;

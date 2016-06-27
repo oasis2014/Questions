@@ -44,6 +44,7 @@
     <Compile Include="AllPairsSumToSpecificValue.cs" />
     <Compile Include="Array_LargeSumSequence.cs" />
     <Compile Include="Array_RemoveDuplicate.cs" />
+    <Compile Include="BitManipulation_InsertMToN.cs" />
     <Compile Include="ChangeArray.cs" />
     <Compile Include="ContinuousSequenceSum.cs" />
     <Compile Include="Count2s.cs" />
