@@ -46,6 +46,7 @@
     <Compile Include="Array_CheckPalindrom.cs" />
     <Compile Include="Array_CheckPermutation.cs" />
     <Compile Include="Array_LargeSumSequence.cs" />
+    <Compile Include="Array_OneAWay.cs" />
     <Compile Include="Array_RemoveDuplicate.cs" />
     <Compile Include="Array_Urlify.cs" />
     <Compile Include="BitManipulation_InsertMToN.cs" />

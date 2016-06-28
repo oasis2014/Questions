@@ -10,7 +10,13 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            Array_OneAWay.DoTest("pale", "ple");
+            Array_OneAWay.DoTest("pales", "pale");
+            Array_OneAWay.DoTest("pale", "bale");
+            Array_OneAWay.DoTest("pale", "bae");
+            /*
             Array_Urlify.DoTest("Mr John Smith    ", 13);
+             */
             /*
             Array_CheckPalindrom.DoTest("12345");
             Array_CheckPalindrom.DoTest("taco Coa");
