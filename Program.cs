@@ -10,8 +10,18 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            Array_CheckPermutation.DoTest("abcd", "dcab");
+            Array_CheckPermutation.DoTest("12345", "5432111");
+            Array_CheckPermutation.DoTest("12345", "54321");
+
+            /*
+            Array_AlluniqueCharacters.DoTest("abcd");
+            Array_AlluniqueCharacters.DoTest("abcdaaa");
+            */
+            /*
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.75);
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.72);
+             * */
             /*
             BitManipulation_InsertMToN.DoTest(19, 1100, 2, 6);
              * */

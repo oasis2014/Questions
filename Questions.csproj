@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AllPairsSumToSpecificValue.cs" />
+    <Compile Include="Array_AlluniqueCharacters.cs" />
+    <Compile Include="Array_CheckPermutation.cs" />
     <Compile Include="Array_LargeSumSequence.cs" />
     <Compile Include="Array_RemoveDuplicate.cs" />
     <Compile Include="BitManipulation_InsertMToN.cs" />
