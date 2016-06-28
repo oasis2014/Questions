@@ -10,10 +10,19 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            Array_Urlify.DoTest("Mr John Smith    ", 13);
+            /*
+            Array_CheckPalindrom.DoTest("12345");
+            Array_CheckPalindrom.DoTest("taco Coa");
+            Array_CheckPalindrom.DoTest("taco t*()");
+            Array_CheckPalindrom.DoTest("taco t*()");
+            Array_CheckPalindrom.DoTest("Amor, Roma");
+            */
+            /*
             Array_CheckPermutation.DoTest("abcd", "dcab");
             Array_CheckPermutation.DoTest("12345", "5432111");
             Array_CheckPermutation.DoTest("12345", "54321");
-
+            */
             /*
             Array_AlluniqueCharacters.DoTest("abcd");
             Array_AlluniqueCharacters.DoTest("abcdaaa");
