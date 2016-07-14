@@ -25,7 +25,6 @@ namespace Questions
         public static void FindPairs(int[] input, int value)
         {
             if (input == null) return;
-            if (value == null) return;
 
             Dictionary<int, int> Map = new Dictionary<int, int>();
 

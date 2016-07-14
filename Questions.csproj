@@ -58,15 +58,21 @@
     <Compile Include="FindKthNumUsingQueue.cs" />
     <Compile Include="GraphQuestion.cs" />
     <Compile Include="IsTwoLinesIntersect.cs" />
+    <Compile Include="LinkedList_AddTwoNumbers.cs" />
+    <Compile Include="LinkedList_CircularFirst.cs" />
+    <Compile Include="LinkedList_DeleteMiddleNode.cs" />
+    <Compile Include="LinkedList_FindNToLast.cs" />
+    <Compile Include="LinkedList_RemoveDups.cs" />
+    <Compile Include="LinkedList_UnbalancedBinarySearchTree.cs" />
+    <Compile Include="Linked_ListPartition.cs" />
     <Compile Include="MissingItemInArray.cs" />
     <Compile Include="NextItemInBSTInOrder.cs" />
     <Compile Include="PrimeNumbers.cs" />
     <Compile Include="PriorityQueueQuestion.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

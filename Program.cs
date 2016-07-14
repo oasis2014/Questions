@@ -10,10 +10,16 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            Linked_ListPartition.DoTest();
+            //LinkedList_DeleteMiddleNode.DoTest();
+            //LinkedList_CircularFirst.DoTest();
+            //LinkedList_RemoveDups.DoTest();
+            //LinkedList_FindNToLast.DoTest();
+            /*
             Array_CheckPermutation.DoTest("abcd", "dcab");
             Array_CheckPermutation.DoTest("12345", "5432111");
             Array_CheckPermutation.DoTest("12345", "54321");
-
+            */
             /*
             Array_AlluniqueCharacters.DoTest("abcd");
             Array_AlluniqueCharacters.DoTest("abcdaaa");
