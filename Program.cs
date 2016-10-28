@@ -10,8 +10,8 @@ namespace Questions
     {
         static void Main(string[] args)
         {
-            Array_RotateMatrix.DoTest(4);
-            Array_RotateMatrix.DoTest(5);
+            //Array_RotateMatrix.DoTest(4);
+            //Array_RotateMatrix.DoTest(5);
 
             //Array_LargeSumSequence.DoTest();
             //Linked_ListPartition.DoTest();
@@ -52,9 +52,9 @@ namespace Questions
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.75);
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.72);
              * */
-            /*
+
             BitManipulation_InsertMToN.DoTest(19, 1100, 2, 6);
-             * */
+
             /*
             int[] input = new int[] { 0, 2, 1, 4, 5, 6 };
             MissingItemInArray.DoTest(input, 6);

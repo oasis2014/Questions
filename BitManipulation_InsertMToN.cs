@@ -16,6 +16,9 @@ namespace Questions
             Console.WriteLine("Originally, the M={0,3} N={1,3} i={2,3} j={3,3}", Convert.ToString(M, 2), Convert.ToString(N, 2), i, j);
             int retVal=InsertMtoN(M, N, i, j);
             Console.WriteLine("After insertion, the retVal={0,3}", Convert.ToString(retVal, 2));
+            retVal = InsertMtoN2(M, N, i, j);
+            Console.WriteLine("After insertion, the retVal={0,3}", Convert.ToString(retVal, 2));
+
         }
         public static int InsertMtoN(int M, int N, int i, int j)
         {
@@ -30,6 +33,16 @@ namespace Questions
 
             N = N & M_mask;
             return M << i | N;
+        }
+
+        public static int InsertMtoN2(int M, int N, int i, int j)
+        {
+            if (i >=j || (j == 0 && i == 0) | N <= M) return N;
+
+            int M_p = M << i;
+            int N_p = N & (~0 << (j + 1));
+
+            return N_p | M_p;
         }
     }
 }

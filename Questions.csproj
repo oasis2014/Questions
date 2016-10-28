@@ -50,7 +50,9 @@
     <Compile Include="Array_RemoveDuplicate.cs" />
     <Compile Include="Array_RotateMatrix.cs" />
     <Compile Include="Array_StringCompression.cs" />
+    <Compile Include="Array_StringRotation.cs" />
     <Compile Include="Array_Urlify.cs" />
+    <Compile Include="Array_ZeroMatrix.cs" />
     <Compile Include="BitManipulation_InsertMToN.cs" />
     <Compile Include="BitManipulation_RealNumberBinaryRepresentation.cs" />
     <Compile Include="ChangeArray.cs" />
