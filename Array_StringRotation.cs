@@ -13,6 +13,7 @@ namespace Questions
         public static bool IsStringRotation1(string s1, string s2)
         {
             if (string.IsNullOrEmpty(s1) || string.IsNullOrEmpty(s2)) return false;
+            if (s1.Length != s2.Length) return false;
 
             char[] s1array=s1.ToCharArray();
             char[] s2array=s2.ToCharArray();
