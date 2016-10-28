@@ -60,7 +60,7 @@ namespace Questions
             }
 
             int newStrLength = trueLen + 2 * countSpace;
-            if (trueLen < s.Length) sTr[trueLen] = '\0';
+            if (trueLen < s.Length) sTr[newStrLength-1] = '\0';
             for (int i = newStrLength - 1, j = trueLen - 1; i >= 0; i--, j--)
             {
                 if (sTr[j] != ' ')

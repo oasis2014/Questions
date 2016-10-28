@@ -13,7 +13,7 @@ namespace Questions
         public static void DoTest(string s)
         {
             Console.WriteLine("The string is: {0,3}", s);
-            bool isUnique = IsUnique(s);
+            bool isUnique = IsUnique2(s);
             Console.WriteLine("Does the string have all unique characters? {0}", isUnique);
         }
         /// <summary>
@@ -35,14 +35,31 @@ namespace Questions
                     if (strArray[i] == strArray[j])
                         return false;
                 }
-                if (j == tail)
-                {
+                //if (j == tail)
+                //{
                     tail++;
                     strArray[j] = strArray[i];
-                }
+                //}
             }
             return true;
         }
 
+        public static bool IsUnique2(string input)
+        {
+            if (input.Length > 128) return false;
+            bool[] bIsUnique = new bool[128];
+            char[] cInput=input.ToCharArray();
+
+            for (int i=0; i<input.Length; i++)
+            {
+               int val=cInput[i];
+                if (bIsUnique[val])
+                {
+                    return false;
+                }
+                bIsUnique[val]=true;
+            }
+            return true;
+        }
     }
 }

@@ -10,14 +10,18 @@ namespace Questions
     {
         static void Main(string[] args)
         {
+            Array_RotateMatrix.DoTest(4);
+            Array_RotateMatrix.DoTest(5);
 
-            Linked_ListPartition.DoTest();
+            //Array_LargeSumSequence.DoTest();
+            //Linked_ListPartition.DoTest();
             //LinkedList_DeleteMiddleNode.DoTest();
             //LinkedList_CircularFirst.DoTest();
             //LinkedList_RemoveDups.DoTest();
             //LinkedList_FindNToLast.DoTest();
-            Array_StringCompression.DoTest("aabcccccaaa");
-            Array_StringCompression.DoTest("abcd");
+
+            //Array_StringCompression.DoTest("aabcccccaaa");
+            //Array_StringCompression.DoTest("abcd");
 
             /*
             Array_OneAWay.DoTest("pale", "ple");
@@ -25,26 +29,25 @@ namespace Questions
             Array_OneAWay.DoTest("pale", "bale");
             Array_OneAWay.DoTest("pale", "bae");
              */
-            /*
-            Array_Urlify.DoTest("Mr John Smith    ", 13);
-             */
-            /*
-            Array_CheckPalindrom.DoTest("12345");
-            Array_CheckPalindrom.DoTest("taco Coa");
-            Array_CheckPalindrom.DoTest("taco t*()");
-            Array_CheckPalindrom.DoTest("taco t*()");
-            Array_CheckPalindrom.DoTest("Amor, Roma");
-            */
->>>>>>> origin/master
-            /*
-            Array_CheckPermutation.DoTest("abcd", "dcab");
-            Array_CheckPermutation.DoTest("12345", "5432111");
-            Array_CheckPermutation.DoTest("12345", "54321");
-            */
-            /*
-            Array_AlluniqueCharacters.DoTest("abcd");
-            Array_AlluniqueCharacters.DoTest("abcdaaa");
-            */
+
+            //Array_Urlify.DoTest("Mr John Smith    ", 13);
+
+            
+            //Array_CheckPalindrom.DoTest("12345");
+            //Array_CheckPalindrom.DoTest("taco Coa");
+            //Array_CheckPalindrom.DoTest("taco t*()");
+            //Array_CheckPalindrom.DoTest("taco t*()");
+            //Array_CheckPalindrom.DoTest("Amor, Roma");
+            
+            
+            //Array_CheckPermutation.DoTest("abcd", "dcab");
+            //Array_CheckPermutation.DoTest("12345", "5432111");
+            //Array_CheckPermutation.DoTest("12345", "54321");
+            
+
+            //Array_AlluniqueCharacters.DoTest("abcd");
+            //Array_AlluniqueCharacters.DoTest("abcdaaa");
+            
             /*
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.75);
             BitManipulation_RealNumberBinaryRepresentation.DoTest(0.72);
@@ -93,7 +96,7 @@ namespace Questions
             {
                 Console.WriteLine(input[i]);
             }*/
-
+            /*
             string s = "abababcda";
             s = Array_RemoveDuplicate.RemoveDuplicate(s);
             string s1 = "baaabcaab";
@@ -103,7 +106,7 @@ namespace Questions
             s = "aaababcda";
             s = Array_RemoveDuplicate.removeDuplicates(s);
             Console.WriteLine(s);
-
+            */
                 Console.ReadLine();
         }
     }
